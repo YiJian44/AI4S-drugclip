@@ -1,0 +1,4 @@
+rdkit>=2022.03
+scikit-learn
+pandas
+numpy
