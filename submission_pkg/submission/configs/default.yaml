@@ -1,0 +1,48 @@
+# Default Configuration for DrugCLIP Agent
+# ============================================================
+# Search space explored by autonomous agent
+
+search_space:
+  fp_dims:
+    - [2048, 167, 4096]
+    - [1024, 167, 2048]
+  fp_weights:
+    - [0.33, 0.33, 0.34]
+    - [0.4, 0.3, 0.3]
+    - [0.5, 0.25, 0.25]
+  fp_scale:
+    - 1.5
+    - 2.0
+    - 2.5
+  Ks:
+    - [30, 50, 80, 120]
+    - [20, 40, 80, 120]
+    - [25, 50, 100]
+  centroid_mode:
+    - sum_norm
+    - mean
+    - median
+  rrf_k:
+    - 30
+    - 50
+    - 60
+    - 80
+  fusion:
+    - rrf
+    - weighted_sum
+
+# Default scoring config
+scoring:
+  fp_dims: [2048, 167, 4096]
+  fp_weights: [0.33, 0.33, 0.34]
+  fp_scale: 2.0
+  Ks: [30, 50, 80, 120]
+  centroid_mode: sum_norm
+  rrf_k: 60
+  fusion: rrf
+
+# Agent settings
+agent:
+  max_iterations: 5
+  use_fast_baseline: true
+  output_dir: output

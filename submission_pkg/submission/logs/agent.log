@@ -1,0 +1,17 @@
+2026-05-27T13:25:21 [INFO] agent: ============================================================
+2026-05-27T13:25:21 [INFO] agent: DrugCLIP Autonomous Agent initialized
+2026-05-27T13:25:21 [INFO] agent:   tasks=117
+2026-05-27T13:25:21 [INFO] agent:   dude_targets=102
+2026-05-27T13:25:21 [INFO] agent:   input_dir=/home/yijian/Desktop/drugclip/benchmark
+2026-05-27T13:25:21 [INFO] agent:   output_dir=output
+2026-05-27T13:25:21 [INFO] agent: ============================================================
+2026-05-27T13:25:21 [INFO] agent: 
+############################################################
+2026-05-27T13:25:21 [INFO] agent: # AUTONOMOUS LOOP | max_iterations=1
+2026-05-27T13:25:21 [INFO] agent: ############################################################
+
+2026-05-27T13:25:21 [INFO] agent: 
+============================================================
+2026-05-27T13:25:21 [INFO] agent: [ITER 0] Config: {"Ks": [20, 40, 80, 120], "centroid_mode": "sum_norm", "fp_dims": [2048, 167, 4096], "fp_scale": 2.5, "fp_weights": [0.33, 0.33, 0.34], "fusion": "rrf", "rrf_k": 50}
+2026-05-27T13:25:21 [INFO] agent: ============================================================
+2026-05-27T13:33:24 [INFO] agent:   Progress: 20/117
